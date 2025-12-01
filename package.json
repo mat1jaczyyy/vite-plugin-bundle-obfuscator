@@ -48,7 +48,8 @@
     "prepare": "husky",
     "start": "npm run build -- --watch",
     "test": "vitest",
-    "version": "auto-changelog"
+    "version": "auto-changelog",
+    "postinstall": "tsup"
   },
   "dependencies": {
     "@jridgewell/remapping": "^2.3.5",
